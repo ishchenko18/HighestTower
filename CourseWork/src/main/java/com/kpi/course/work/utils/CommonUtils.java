@@ -32,6 +32,10 @@ public class CommonUtils {
                 .collect(Collectors.toList());
     }
 
+    public String getProperty(String key) {
+        return properties.getProperty(key);
+    }
+
     private List<Parallelepiped> readFile(String fileName) throws Exception {
 
         List<Parallelepiped> readData = new ArrayList<>();
