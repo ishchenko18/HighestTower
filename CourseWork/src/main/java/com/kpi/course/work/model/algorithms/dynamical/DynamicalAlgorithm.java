@@ -47,7 +47,7 @@ public class DynamicalAlgorithm extends Algorithm {
         List<Parallelepiped> ls = searchHighestTower();
         long end= System.nanoTime();
 
-        System.out.println(end-start);
+        //System.out.println(end-start);
 
         return ls;
     }
